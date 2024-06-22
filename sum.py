@@ -2,7 +2,7 @@
 def sum(a , b):
     return (a+b)
 
-print(sum(17,3))
+print(sum(69,3))
 
 def diff(a,b):
     return(a-b)
