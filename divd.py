@@ -1,6 +1,11 @@
 
 
 def divd(a,b):
+    # i want a/b to have precision of 6
     return (a/b)
 
-print(divd(1,3))
+
+def divdivd(a,b):
+    return divd(a,b) / b
+
+print(divdivd(1,3))
